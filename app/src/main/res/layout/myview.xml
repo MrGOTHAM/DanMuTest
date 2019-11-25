@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <Button
+            android:id="@+id/click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="开始动画"
+            android:layout_gravity="center_horizontal"
+    />
+
+    <View
+    android:layout_height="0dp"
+    android:layout_weight="6"
+    android:layout_width="match_parent"
+    />
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:id="@+id/linear"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/acg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dadada"
+                android:gravity="bottom"
+                android:textSize="12sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_textview_background"
+        />
+        <TextView
+                android:id="@+id/ancg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="bottom"
+                android:textSize="12sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_textview_background"
+        />
+
+    </LinearLayout>
+    <View
+            android:layout_height="2px"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+
+    />
+    <View
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+
+    />
+
+</LinearLayout>
